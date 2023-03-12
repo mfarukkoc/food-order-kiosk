@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="mt-12">
               <span className="font-bold text-4xl">Popular</span>
-              <div className="grid grid-cols-3 lg:grid-cols-4 mt-10 gap-5 rounded-2xl place-items-center w-fit m-auto">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-10 gap-5 rounded-2xl place-items-center w-fit m-auto">
                 {mockItemData.map((item) => {
                   return (
                     <Card
